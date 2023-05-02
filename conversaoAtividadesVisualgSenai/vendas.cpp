@@ -3,13 +3,17 @@
 using namespace std;
 int main (){
 	
+	//declação da variável
 	int quantidadeProduto;
 	
+	//solicitação de dados ao usuário
 	cout << "Quantas laranjas voce deseja comprar: ";
 	cin >> quantidadeProduto;
 	
+	//comando para limpar a tela
 	system("cls");
 	
+	//verificação das condições e exibição da informação na tela
 	if (quantidadeProduto < 12 & quantidadeProduto > 0) {
 		cout << "Quantidade: " << quantidadeProduto << "\n";
 		cout << "Valor do produto: R$1.30\n";
