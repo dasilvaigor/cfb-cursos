@@ -10,28 +10,28 @@ Imprimir no final os números informados pelo usuário e o resultado das operações
 using namespace std;
 int main () {
 	//Solicitação dos dados ao usuário.
-	int numero1, numero2, soma, subtracao, multiplicacao;
-	float divisao;
+	int number1, number2, sum, subtraction, multiplication;
+	float division;
 	
-	cout << "Informe o primeiro numero: ";
-	cin >> numero1;
-	cout << "Informe o segundo numero: ";
-	cin >> numero2;
+	cout << "Enter the first number  : ";
+	cin >> number1;
+	cout << "Enter the second number : ";
+	cin >> number2;
 	
 	//Realização das operações e armazenamento dos valores nas variáveis.
-	soma = numero1+numero2;
-	subtracao = numero1-numero2;
-	multiplicacao = numero1*numero2;
-	divisao = numero1/numero2;
+	sum = number1+number2;
+	subtraction = number1-number2;
+	multiplication = number1*number2;
+	division = number1/number2;
 	
 	system("cls");
 	
 	//Exibição das informações na tela
-	cout << "Numeros digitados: " << numero1 << " e " << numero2 << "\n";
-	cout << "Soma            : " << soma << "\n";
-	cout << "Subtracao       : " << subtracao << "\n";
-	cout << "Multiplicacao   : " << multiplicacao << "\n";
-	cout << "Divisao         : " << divisao << "\n";
+	cout << "Typed numbers: " << number1 << " and " << number2 << "\n\n";
+	cout << "Sum              : " << sum << "\n";
+	cout << "Subtraction      : " << subtraction << "\n";
+	cout << "Multiplication   : " << multiplication << "\n";
+	cout << "Division         : " << division << "\n";
 
 	system("pause");
 	return 0;
