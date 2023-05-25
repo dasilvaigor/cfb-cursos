@@ -12,6 +12,7 @@ int main ()  {
 	string nameStudent, ageStudent;
 	float note1, note2, note3, note4, average;
 	
+	//User data request.
 	cout << "Enter the student's name: ";
 	cin >> nameStudent;
 	cout << "Enter the student's age: ";
@@ -25,10 +26,12 @@ int main ()  {
 	cout << "Enter the fourth note: ";
 	cin >> note4;
 	
+	//Executing the operation and storing the value in variables.
 	average = (note1+note2+note3+note4) / 4;
 	
 	system ("cls");
 	
+	//Display of information on the screen.
 	cout << "Name: " << nameStudent << "\n";
 	cout << "Age: " << ageStudent << "\n\n";
 	cout << "First note: " << note1 << "\n";

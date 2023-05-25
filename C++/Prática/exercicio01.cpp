@@ -9,16 +9,17 @@ Imprimir no final os números informados pelo usuário e o resultado das operações
 #include <cstdlib>
 using namespace std;
 int main () {
-	//Solicitação dos dados ao usuário.
+	
 	int number1, number2, sum, subtraction, multiplication;
 	float division;
 	
+	//User data request.
 	cout << "Enter the first number  : ";
 	cin >> number1;
 	cout << "Enter the second number : ";
 	cin >> number2;
 	
-	//Realização das operações e armazenamento dos valores nas variáveis.
+	//Performing operations and storing values in variables.
 	sum = number1+number2;
 	subtraction = number1-number2;
 	multiplication = number1*number2;
@@ -26,7 +27,7 @@ int main () {
 	
 	system("cls");
 	
-	//Exibição das informações na tela
+	//Display of information on the screen.
 	cout << "Typed numbers: " << number1 << " and " << number2 << "\n\n";
 	cout << "Sum              : " << sum << "\n";
 	cout << "Subtraction      : " << subtraction << "\n";
