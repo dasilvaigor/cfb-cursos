@@ -12,11 +12,13 @@ int main () {
 	
 	int apples;
 	
+	//User data request.
 	cout << "Enter the number of apples you want: ";
 	cin >> apples;
 	
 	system("cls");
 	
+	//Checking the conditions and displaying the information on the screen.
 	cout << "Amount of apples: " << apples << "\n";
 	if (apples < 12) {
 		cout << "Value: U$1.30\n";
